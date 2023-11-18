@@ -1,0 +1,77 @@
+﻿/* Reset some default styles */
+body, header, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles for the whole page */
+body {
+    background-color: darkolivegreen;
+    font-family: Arial, sans-serif;
+    /*background-image: url('Bird2.jpg');*/
+}
+
+/* Style the header */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    /*text-align: center;*/
+}
+
+    header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+nav ul {
+    list-style-type: none;
+}
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+/* Style the main section */
+main {
+    /*padding: 100px;*/
+    height: 800px;
+    width: 100%;
+    background-image: url('img/Bird3.jpg');
+
+}
+
+/* #main-section {
+    background-color: greenyellow;
+    border: 1px solid #ccc;
+    
+    padding: 300px;
+}
+
+    #main-section h2 {
+        font-size: 20px;
+        padding-right: 3px;
+      
+    }
+
+    #main-section p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding-right: 3px;
+        padding-bottom: 650px;
+        
+    }
+*/
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    /*text-align:  center;*/
+}
